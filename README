@@ -1,5 +1,5 @@
-# ITKMeshNoise
+# DVMeshNoise
 
-ITKMeshNoise is an ITK module which allows Gaussian noise to be added to the coordinates of an itk::Mesh or itk::QuadEdgeMesh.
+DVMeshNoise is an ITK module which allows Gaussian noise to be added to the coordinates of an itk::Mesh or itk::QuadEdgeMesh.
 
 Author: Davis Marc Vigneault
