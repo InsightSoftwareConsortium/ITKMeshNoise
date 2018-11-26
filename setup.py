@@ -12,15 +12,15 @@ except ImportError:
     sys.exit(1)
 
 setup(
-    name='dvmeshnoise',
+    name='itk-meshnoise',
     version='0.0.1',
     author='Davis Vigneault',
     author_email='davis.vigneault@gmail.com',
     packages=['itk'],
     package_dir={'itk': 'itk'},
-    download_url=r'https://github.com/InsightSoftwareConsortium/DVMeshNoise',
+    download_url=r'https://github.com/InsightSoftwareConsortium/ITKMeshNoise',
     description=r'Classes to perturb mesh objects with Gaussian noise',
-    long_description='DVMeshNoise provides classes to perturb mesh objects'
+    long_description='ITKMeshNoise provides classes to perturb mesh objects'
                      'with Gaussian noise.\n'
                      'Please refer to:'
                      'Vigneault D.,'
@@ -46,8 +46,8 @@ setup(
         "Operating System :: MacOS"
         ],
     license='Apache',
-    keywords='ITK InsightToolkit',
-    url=r'https://itk.org/',
+    keywords='ITK InsightToolkit mesh noise',
+    url=r'https://github.com/InsightSoftwareConsortium/ITKMeshNoise',
     install_requires=[
         r'itk'
     ]

@@ -1,12 +1,12 @@
-DVMeshNoise
-===========
+ITKMeshNoise
+============
 
-.. |CircleCI| image:: https://circleci.com/gh/InsightSoftwareConsortium/DVMeshNoise.svg?style=shield
-    :target: https://circleci.com/gh/InsightSoftwareConsortium/DVMeshNoise
-.. |TravisCI| image:: https://travis-ci.org/InsightSoftwareConsortium/DVMeshNoise.svg?branch=master
-    :target: https://travis-ci.org/InsightSoftwareConsortium/DVMeshNoise
-.. |AppVeyor| image:: https://img.shields.io/appveyor/ci/itkrobot/dvmeshnoise.svg
-    :target: https://ci.appveyor.com/project/itkrobot/dvmeshnoise
+.. |CircleCI| image:: https://circleci.com/gh/InsightSoftwareConsortium/ITKMeshNoise.svg?style=shield
+    :target: https://circleci.com/gh/InsightSoftwareConsortium/ITKMeshNoise
+.. |TravisCI| image:: https://travis-ci.org/InsightSoftwareConsortium/ITKMeshNoise.svg?branch=master
+    :target: https://travis-ci.org/InsightSoftwareConsortium/ITKMeshNoise
+.. |AppVeyor| image:: https://img.shields.io/appveyor/ci/itkrobot/itkmeshnoise.svg
+    :target: https://ci.appveyor.com/project/itkrobot/itkmeshnoise
 
 =========== =========== ===========
    Linux      macOS       Windows
