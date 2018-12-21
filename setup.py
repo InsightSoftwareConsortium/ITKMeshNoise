@@ -20,12 +20,12 @@ setup(
     package_dir={'itk': 'itk'},
     download_url=r'https://github.com/InsightSoftwareConsortium/ITKMeshNoise',
     description=r'Classes to perturb mesh objects with Gaussian noise',
-    long_description='ITKMeshNoise provides classes to perturb mesh objects'
+    long_description='itk-meshnoise provides classes to perturb mesh objects '
                      'with Gaussian noise.\n'
-                     'Please refer to:'
-                     'Vigneault D.,'
-                     '“Perturbing Mesh Vertices with Additive Gaussian Noise”, '
-                     'Insight Journal, http://hdl.handle.net/10380/3567, 2016.',
+                     'Please refer to:\n'
+                     'Vigneault D., '
+                     '"Perturbing Mesh Vertices with Additive Gaussian Noise", '
+                     'Insight Journal, January-December 2016, http://hdl.handle.net/10380/3567.',
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python",
@@ -46,7 +46,7 @@ setup(
         "Operating System :: MacOS"
         ],
     license='Apache',
-    keywords='ITK InsightToolkit mesh noise',
+    keywords='ITK InsightToolkit Mesh Noise',
     url=r'https://github.com/InsightSoftwareConsortium/ITKMeshNoise',
     install_requires=[
         r'itk'
