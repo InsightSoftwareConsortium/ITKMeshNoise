@@ -1,18 +1,6 @@
 ITKMeshNoise
 ============
 
-.. |CircleCI| image:: https://circleci.com/gh/InsightSoftwareConsortium/ITKMeshNoise.svg?style=shield
-    :target: https://circleci.com/gh/InsightSoftwareConsortium/ITKMeshNoise
-.. |TravisCI| image:: https://travis-ci.org/InsightSoftwareConsortium/ITKMeshNoise.svg?branch=master
-    :target: https://travis-ci.org/InsightSoftwareConsortium/ITKMeshNoise
-.. |AppVeyor| image:: https://img.shields.io/appveyor/ci/itkrobot/itkmeshnoise.svg
-    :target: https://ci.appveyor.com/project/itkrobot/itkmeshnoise
-
-=========== =========== ===========
-   Linux      macOS       Windows
-=========== =========== ===========
-|CircleCI|  |TravisCI|  |AppVeyor|
-=========== =========== ===========
 
 
 Overview
