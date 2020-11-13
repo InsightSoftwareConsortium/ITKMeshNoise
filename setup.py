@@ -49,6 +49,6 @@ setup(
     keywords='ITK InsightToolkit Mesh Noise',
     url=r'https://github.com/InsightSoftwareConsortium/ITKMeshNoise',
     install_requires=[
-        r'itk'
+        r'itk>=5.1.1'
     ]
     )
