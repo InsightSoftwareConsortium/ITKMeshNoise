@@ -13,7 +13,7 @@ except ImportError:
 
 setup(
     name='itk-meshnoise',
-    version='0.0.1',
+    version='0.1.0',
     author='Davis Vigneault',
     author_email='davis.vigneault@gmail.com',
     packages=['itk'],
