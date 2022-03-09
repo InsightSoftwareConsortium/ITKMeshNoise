@@ -15,9 +15,10 @@
  *  limitations under the License.
  *
  *=========================================================================*/
-#include <itkQuadEdgeMesh.h>
-#include <itkRegularSphereMeshSource.h>
-#include <itkAdditiveGaussianNoiseQuadEdgeMeshFilter.h>
+#include "itkAdditiveGaussianNoiseQuadEdgeMeshFilter.h"
+#include "itkMakeFilled.h"
+#include "itkQuadEdgeMesh.h"
+#include "itkRegularSphereMeshSource.h"
 #include "itkTestingMacros.h"
 
 int
@@ -34,6 +35,7 @@ itkAdditiveGaussianNoiseQuadEdgeMeshFilterTest(int itkNotUsed(argc), char * itkN
   using TMesh = itk::QuadEdgeMesh<TPixel, Dimension>;
   using TSphere = itk::RegularSphereMeshSource<TMesh>;
   using TNoise = itk::AdditiveGaussianNoiseQuadEdgeMeshFilter<TMesh>;
+  using VectorType = typename TSphere::VectorType;
 
   ////////////////
   // Parameters //
@@ -53,7 +55,7 @@ itkAdditiveGaussianNoiseQuadEdgeMeshFilterTest(int itkNotUsed(argc), char * itkN
   TSphere::Pointer sphere = TSphere::New();
 
   sphere->SetResolution(SPHERE_RESOLUTION);
-  sphere->SetScale(SPHERE_SCALE);
+  sphere->SetScale(itk::MakeFilled<VectorType>(SPHERE_SCALE));
 
   TNoise::Pointer noise = TNoise::New();
 
