@@ -25,7 +25,7 @@ setup(
                      'Please refer to:\n'
                      'Vigneault D., '
                      '"Perturbing Mesh Vertices with Additive Gaussian Noise", '
-                     'Insight Journal, January-December 2016, http://hdl.handle.net/10380/3567.',
+                     'Insight Journal, January-December 2016, https://hdl.handle.net/10380/3567.',
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python",
