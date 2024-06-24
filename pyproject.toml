@@ -4,7 +4,7 @@ build-backend = "scikit_build_core.build"
 
 [project]
 name = "itk-meshnoise"
-version = "0.1.0"
+version = "1.0.0"
 description = "Classes to perturb mesh objects with Gaussian noise"
 readme = "README.rst"
 license = {file = "LICENSE"}
